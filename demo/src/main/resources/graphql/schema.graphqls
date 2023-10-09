@@ -1,0 +1,14 @@
+type Query {
+  hello: Hola
+  bankai: Bankai
+}
+
+type Hola {
+  title: String
+  message: String
+}
+
+type Bankai {
+  title: String
+  message: String
+}

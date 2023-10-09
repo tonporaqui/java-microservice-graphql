@@ -1,0 +1,13 @@
+version: '3.8'
+services:
+  demo-app:
+    build: ./demo
+    image: demo-app:latest
+    ports:
+      - "8080:8080"
+
+  bankai-app:
+    build: ./bankai
+    image: bankai-app:latest
+    ports:
+      - "8081:8081"
